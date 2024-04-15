@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    background-color: hsl(226, 43%, 10%);
+    align-items: center;
+    justify-content: center;
+
+}
+.content{
+    height: 60%;
+    width: 80%;
+    background-color: hsl(226, 43%, 10%);
+    /* display: grid; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, ifr);
+    grid-template-areas:
+    "one two three four"
+    "one five six seven";
+
+
+}
+.one{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, ifr);
+    grid-template-areas:
+    "one two three four"
+    "one five six seven";
+    width: 80%;
+    height: 60%;
+    gap: 10px;
+
+}
+.rob{
+    background-color:rgb(61, 61, 220);
+    width: 40vh;
+    border-radius: 10px;
+    grid-area: one;
+    display: flex;  
+    flex-direction: column;  
+    gap: 5px;
+    height: 40%;
+}
+.rob img{
+    width: 60px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+    background-color: hsl(235, 46%, 20%);
+    height: 60%;
+    border-radius10%: ;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    grid-area: two;
+}
+.image{
+    height: 20%;
+    background-color: hsl(15, 100%, 70%);
+}
+.work img{
+    float: right;    
+    height: 40px;
+}
+.par{
+    background-color: hsl(235, 46%, 20%);
+    height: 80%;
+    color: white;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.play{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    grid-area: three;
+}
+.play1{
+    height: 20%;
+    background-color: hsl(195, 74%, 62%);
+}
+.play img{
+    float: right;    
+    height: 40px;
+}
+.study{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    grid-area: four;
+}
+.study1{
+    height: 20%;
+    background-color:  hsl(348, 100%, 68%);
+}
+.study img{
+    float: right;    
+    height: 40px;
+}
+.exercise{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    grid-area: five;
+}
+.exercise1{
+    height: 20%;
+    background-color: hsl(145, 58%, 55%);
+}
+.exercise img{
+    float: right;    
+    height: 40px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    grid-area: six;
+}
+.social1{
+    height: 20%;
+    background-color: hsl(264, 64%, 52%);
+}
+.social img{
+    float: right;    
+    height: 40px;
+}
+.self-care{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    grid-area: seven;
+
+}
+.self1{
+    height: 20%;
+    background-color: hsl(43, 84%, 65%);
+}
+.self-care img{
+    float: right;    
+    height: 40px;
+}
